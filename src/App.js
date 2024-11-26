@@ -23,8 +23,8 @@ function App() {
         isActive={isActive}
         onTimerEnd={() => setIsWorkTimer(!isWorkTimer)}
       />
-      <Controls isActive={isActive} setIsActive={setIsActive} resetTimer={resetTimer} />
-      <Settings setWorkMinutes={setWorkMinutes} setBreakMinutes={setBreakMinutes} />
+     <Settings setWorkMinutes={setWorkMinutes} setBreakMinutes={setBreakMinutes} />
+     <Controls   />
     </div>
   );
 }

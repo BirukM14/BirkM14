@@ -1,12 +1,10 @@
 import React from "react";
 
-const Controls = ({ isActive, setIsActive, resetTimer }) => {
+const Controls = () => {
   return (
-    <div>
-      <button onClick={() => setIsActive(!isActive)}>
-        {isActive ? "Pause" : "Start"}
-      </button>
-      <button onClick={resetTimer}>Reset</button>
+    <div className="footer">
+        Biruk timer for study
+    
     </div>
   );
 };
