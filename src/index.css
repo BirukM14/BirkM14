@@ -1,0 +1,69 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1, h3 {
+    margin: 10px 0;
+    color: #ff6347; /* Pomodoro-inspired red */
+  }
+  
+  div {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Timer styles */
+  h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+  }
+  
+  /* Buttons */
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6347;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff4500;
+  }
+  
+  /* Input fields */
+  input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  /* Settings container */
+  label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
